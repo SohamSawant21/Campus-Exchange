@@ -1,22 +1,44 @@
-Current Situation
+# Functional Requirements
+#### Authentication
+- Register
+- Login
+- Logout
+- Forgot Password
+- Profile Management
+#### Listings
+- Create listing
+- Update listing
+- Delete listing
+- Upload images
+- Select category
+- Set price
+#### Search
+- Search by title
+- Search by keywords
+- Filter by category
+- Sort by newest
+#### Messaging
+- Buyer contacts seller
+- Seller replies
+#### Admin
+- View users
+- View listings
+- Delete spam
+-Ban users
 
-Students have:
-Used textbooks
-Electronics
-Project components
-Lab kits
+***
 
-that become useless after a semester.
+# Non Functional Requirements
 
-There is no trusted internal marketplace within most colleges.
+#### Performance
 
-Solution
+- Page load < 2 sec
 
-Build a campus-only marketplace where students can:
-List items
-Browse listings
-Contact sellers
-Manage purchases
-Report spam
-
----SRS---
+#### Security
+- Password hashing
+- CSRF protection
+- Input validation
+#### Usability
+- Mobile responsive
+#### Reliability
+- Prevent duplicate submissions
